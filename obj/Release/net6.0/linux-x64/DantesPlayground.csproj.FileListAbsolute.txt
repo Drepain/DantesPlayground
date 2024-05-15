@@ -196,3 +196,4 @@
 /home/joca/Documents/MonoGame/DantesPlayground/obj/Release/net6.0/linux-x64/DantesPlayground.pdb
 /home/joca/Documents/MonoGame/DantesPlayground/obj/Release/net6.0/linux-x64/DantesPlayground.genruntimeconfig.cache
 /home/joca/Documents/MonoGame/DantesPlayground/obj/Release/net6.0/linux-x64/ref/DantesPlayground.dll
+/home/joca/Documents/MonoGame/DantesPlayground/bin/Release/net6.0/linux-x64/Content/HackFont.xnb

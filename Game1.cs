@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using System.IO;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
@@ -8,6 +9,8 @@ public class Game1 : Game
 {
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
+
+    private SpriteFont font;
 
     public Game1()
     {
@@ -27,6 +30,7 @@ public class Game1 : Game
     {
         _spriteBatch = new SpriteBatch(GraphicsDevice);
 
+        font = Content.Load<SpriteFont>("HackFont");
         // TODO: use this.Content to load your game content here
     }
 
@@ -44,7 +48,11 @@ public class Game1 : Game
     {
         GraphicsDevice.Clear(Color.CornflowerBlue);
 
-        // TODO: Add your drawing code here
+        _spriteBatch.Begin();
+
+        _spriteBatch.DrawString(font, "BALLS", new Vector2(0,0), Color.Red);
+
+        _spriteBatch.End();
 
         base.Draw(gameTime);
     }

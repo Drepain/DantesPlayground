@@ -1,4 +1,5 @@
 /home/joca/Documents/MonoGame/DantesPlayground/bin/Release/net6.0/linux-x64/publish/DantesPlayground
+/home/joca/Documents/MonoGame/DantesPlayground/bin/Release/net6.0/linux-x64/publish/Content/HackFont.xnb
 /home/joca/Documents/MonoGame/DantesPlayground/bin/Release/net6.0/linux-x64/publish/DantesPlayground.dll
 /home/joca/Documents/MonoGame/DantesPlayground/bin/Release/net6.0/linux-x64/publish/DantesPlayground.deps.json
 /home/joca/Documents/MonoGame/DantesPlayground/bin/Release/net6.0/linux-x64/publish/DantesPlayground.runtimeconfig.json

@@ -12,6 +12,8 @@ public class Game1 : Game
 
     private SpriteFont font;
 
+    //private readonly GameManager ManageGame;
+    //private readonly Input ManageInput;
     public Game1()
     {
         _graphics = new GraphicsDeviceManager(this);
@@ -39,7 +41,7 @@ public class Game1 : Game
         if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
             Exit();
 
-        // TODO: Add your update logic here
+        //ManageGame.Update();
 
         base.Update(gameTime);
     }

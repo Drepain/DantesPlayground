@@ -4,9 +4,11 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteIdle-Sheet.png</File>
     <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/File.spritefont</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File>HackFont.spritefont</File>
   </DestFiles>
 </SourceFileCollection>

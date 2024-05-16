@@ -1,2 +1,3 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteIdle-Sheet.png","/home/joca/Documents/MonoGame/DantesPlayground/Content/bin/DesktopGL/Content/DanteIdle-Sheet.xnb","TextureProcessor","Texture2DContent",665,20565,0.2861644
 "/home/joca/Documents/MonoGame/DantesPlayground/Content/File.spritefont","/home/joca/Documents/MonoGame/DantesPlayground/Content/bin/DesktopGL/Content/HackFont.xnb","FontDescriptionProcessor","SpriteFontContent",2007,21535,0.1552456

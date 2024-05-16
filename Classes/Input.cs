@@ -3,9 +3,8 @@ using Microsoft.Xna.Framework;
 
 namespace DantesPlayground;
 
-public static class Input 
+public static class InputManager 
 {
-    private static MouseState _lastmousestate;
     private static Vector2 _direction;
     public static Vector2 Direction => _direction;
     public static Vector2 MousePosition => Mouse.GetState().Position.ToVector2();

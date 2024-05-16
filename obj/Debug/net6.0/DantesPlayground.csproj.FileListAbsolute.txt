@@ -24,3 +24,4 @@
 /home/joca/Documents/MonoGame/DantesPlayground/obj/Debug/net6.0/DantesPlayground.pdb
 /home/joca/Documents/MonoGame/DantesPlayground/obj/Debug/net6.0/DantesPlayground.genruntimeconfig.cache
 /home/joca/Documents/MonoGame/DantesPlayground/obj/Debug/net6.0/ref/DantesPlayground.dll
+/home/joca/Documents/MonoGame/DantesPlayground/bin/Debug/net6.0/Content/DanteIdle-Sheet.xnb

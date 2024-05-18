@@ -6,13 +6,14 @@ namespace DantesPlayground;
 
 public class GameManager {
 
-    private readonly Player player;
+    public readonly Player player;
 
-    public GameManager() {
-        player = new(General.Content.Load<Texture2D>("DanteIdle-Sheet"), new(200, 200));
+    public GameManager(Player plr) {
+        player = plr;
+        //player = new(General.Content.Load<Texture2D>("DanteIdle-Frame1"), new(200, 200));
     }
     public void Update() {
-        InputManager.Update();
+        InputManager.Update(player);
         player.Update();
     }
 

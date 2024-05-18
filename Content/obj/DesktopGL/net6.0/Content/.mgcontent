@@ -4,10 +4,98 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteIdle-Sheet.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteDown1.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteDown10.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteDown2.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteDown3.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteDown4.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteDown5.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteDown6.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteDown7.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteDown8.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteDown9.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteIdle1.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteIdle2.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteIdle3.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteIdle4.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteIdle5.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteLeft1.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteLeft10.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteLeft2.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteLeft3.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteLeft4.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteLeft5.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteLeft6.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteLeft7.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteLeft8.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteLeft9.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteRight1.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteRight10.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteRight2.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteRight3.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteRight4.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteRight5.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteRight6.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteRight7.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteRight8.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteRight9.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteUp1.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteUp10.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteUp2.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteUp3.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteUp4.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteUp5.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteUp6.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteUp7.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteUp8.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteUp9.png</File>
     <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/File.spritefont</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File>HackFont.spritefont</File>
   </DestFiles>

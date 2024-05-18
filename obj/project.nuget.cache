@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "mRxED+55IzlegixoDThpRFnEZplC/MedwYGOGtWvmcH5CEyvVtnRK4T8Ivg2LIjOUVYDT1mNJ445PN63cVM7zw==",
+  "dgSpecHash": "YdmHAr8xuZVQnScxYl/lnHB5U7qz4Xadka0vDRtUxUCxlJpUjgQMyZiw7yGa2Ea8xyNz7jhxFOfdUa4oIVjNaA==",
   "success": true,
   "projectFilePath": "/home/joca/Documents/MonoGame/DantesPlayground/DantesPlayground.csproj",
   "expectedPackageFiles": [
     "/home/joca/.nuget/packages/monogame.content.builder.task/3.8.1.303/monogame.content.builder.task.3.8.1.303.nupkg.sha512",
     "/home/joca/.nuget/packages/monogame.framework.desktopgl/3.8.1.303/monogame.framework.desktopgl.3.8.1.303.nupkg.sha512",
-    "/home/joca/.nuget/packages/microsoft.netcore.app.ref/6.0.27/microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
-    "/home/joca/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.27/microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
-    "/home/joca/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.27/microsoft.netcore.app.host.linux-x64.6.0.27.nupkg.sha512"
+    "/home/joca/.nuget/packages/microsoft.netcore.app.ref/6.0.29/microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "/home/joca/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.29/microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512",
+    "/home/joca/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.29/microsoft.netcore.app.host.linux-x64.6.0.29.nupkg.sha512"
   ],
   "logs": []
 }

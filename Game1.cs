@@ -12,7 +12,7 @@ public class Game1 : Game
     private SpriteBatch _spriteBatch;
     private SpriteFont font;
     private  GameManager ManageGame;
-    public static float TotalSeconds;
+    private Player player;
 
     public Game1()
     {
@@ -26,12 +26,13 @@ public class Game1 : Game
     {
         // TODO: Add your initialization logic here
 
-        _graphics.PreferredBackBufferWidth = 1536;
-        _graphics.PreferredBackBufferHeight = 1024;
+        _graphics.PreferredBackBufferWidth = 1024;
+        _graphics.PreferredBackBufferHeight = 768;
         _graphics.ApplyChanges();
 
         General.Content = Content;
-        ManageGame = new();
+        player = new(General.Content.Load<Texture2D>("DanteIdle1"), new(200, 200));
+        ManageGame = new(player);
 
         base.Initialize();
     }

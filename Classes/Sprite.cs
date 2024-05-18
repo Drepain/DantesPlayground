@@ -6,7 +6,7 @@ namespace DantesPlayground;
 
 public class Sprite
 {
-    private readonly Texture2D texture;
+    public Texture2D texture;
     public Vector2 position;
     private Vector2 spawn;
     public int speed;

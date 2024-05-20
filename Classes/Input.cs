@@ -1,6 +1,7 @@
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using System.Diagnostics;
 
 namespace DantesPlayground;
 
@@ -12,20 +13,22 @@ public static class InputManager
     public static bool MouseClicked {get; private set;}
     
     public static void Update(Player plr) {
+        PlayerIndex player = PlayerIndex.One;
         var keyboardState = Keyboard.GetState();
+        var GamePadState = GamePad.GetState(player);
 
         _direction = Vector2.Zero;
 
-        if (keyboardState.IsKeyDown(Keys.W)) {
+        if (keyboardState.IsKeyDown(Keys.W) || GamePadState.ThumbSticks.Left.Y > 0) {
             _direction.Y--;
         }
-        if (keyboardState.IsKeyDown(Keys.S)) {
+        if (keyboardState.IsKeyDown(Keys.S) || GamePadState.ThumbSticks.Left.Y < 0) {
             _direction.Y++;
         }
-        if (keyboardState.IsKeyDown(Keys.A)) {
+        if (keyboardState.IsKeyDown(Keys.A) || GamePadState.ThumbSticks.Left.X < 0) {
             _direction.X--;
         }
-        if (keyboardState.IsKeyDown(Keys.D)) {
+        if (keyboardState.IsKeyDown(Keys.D) || GamePadState.ThumbSticks.Left.X > 0) {
             _direction.X++;
         }
     }

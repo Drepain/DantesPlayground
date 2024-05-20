@@ -6,7 +6,7 @@ namespace DantesPlayground;
 
 public class Sprite
 {
-    public Texture2D texture;
+    protected Texture2D texture;
     public Vector2 position;
     private Vector2 spawn;
     public int speed;
@@ -24,4 +24,7 @@ public class Sprite
         General.SpriteBatch.Draw(texture, position, null, Color.White, 0, spawn, 1, SpriteEffects.None, 1);
     }
 
+    public void ChangeSprite(Texture2D newTexture) {
+        texture = newTexture;
+    }
 }

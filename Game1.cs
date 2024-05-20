@@ -32,6 +32,9 @@ public class Game1 : Game
 
         General.Content = Content;
         player = new(General.Content.Load<Texture2D>("DanteIdle1"), new(200, 200));
+
+        player.Initialize();
+
         ManageGame = new(player);
 
         base.Initialize();

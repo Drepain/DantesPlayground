@@ -50,6 +50,12 @@
     <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteUp8.png</File>
     <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteUp9.png</File>
     <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/File.spritefont</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/Floor0.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/Floor1.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/Wall1.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/WallEdge.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/WallEdgePillar.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/WallPillar.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />
@@ -98,5 +104,11 @@
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File>HackFont.spritefont</File>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>

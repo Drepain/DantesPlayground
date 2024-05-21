@@ -70,3 +70,9 @@
 /home/joca/Documents/MonoGame/DantesPlayground/bin/Debug/net6.0/Content/DanteUp7.xnb
 /home/joca/Documents/MonoGame/DantesPlayground/bin/Debug/net6.0/Content/DanteUp8.xnb
 /home/joca/Documents/MonoGame/DantesPlayground/bin/Debug/net6.0/Content/DanteUp9.xnb
+/home/joca/Documents/MonoGame/DantesPlayground/bin/Debug/net6.0/Content/Floor0.xnb
+/home/joca/Documents/MonoGame/DantesPlayground/bin/Debug/net6.0/Content/Floor1.xnb
+/home/joca/Documents/MonoGame/DantesPlayground/bin/Debug/net6.0/Content/Wall1.xnb
+/home/joca/Documents/MonoGame/DantesPlayground/bin/Debug/net6.0/Content/WallEdge.xnb
+/home/joca/Documents/MonoGame/DantesPlayground/bin/Debug/net6.0/Content/WallEdgePillar.xnb
+/home/joca/Documents/MonoGame/DantesPlayground/bin/Debug/net6.0/Content/WallPillar.xnb

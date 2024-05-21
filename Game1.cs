@@ -29,7 +29,7 @@ public class Game1 : Game
         _graphics.ApplyChanges();
 
         General.Content = Content;
-        player = new(General.Content.Load<Texture2D>("DanteIdle1"), new(200, 200));
+        player = new(General.Content.Load<Texture2D>("DanteIdle1"), new(500, 500));
 
         player.Initialize();
 

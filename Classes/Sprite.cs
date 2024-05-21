@@ -7,7 +7,7 @@ public class Sprite
 {
     protected Texture2D texture;
     public Vector2 position;
-    private Vector2 spawn;
+    public Vector2 spawn;
     public int speed;
 
     public Sprite(Texture2D _Texture, Vector2 Position) 

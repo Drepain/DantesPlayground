@@ -7,6 +7,8 @@ namespace DantesPlayground;
 
 public class Player : Sprite 
 {
+    private Vector2 minPos, maxPos;
+
     int countercounter = 6;
     int AnimationFrame = 0;
     public enum Direction {
@@ -43,24 +45,24 @@ public class Player : Sprite
         if (InputManager.Direction != Vector2.Zero) {
             var dir = Vector2.Normalize(InputManager.Direction);
 
-            position += dir * speed * General.TotalSeconds;
+            position += dir * speed * General.TotalSeconds * 1.3f;
+
+            position = Vector2.Clamp(position, minPos, maxPos);
 
             //Position can be debugged with:
             //Debug.Print("X:" + position.X.ToString() + " Y:" + position.Y.ToString());
-
-            counter++;
-
-            if (dir.X < 0) {
+            
+            if (dir.Y < 0) {
+                PlayAnimation(DanteUp);
+            } else if (dir.Y > 0) {
+                PlayAnimation(DanteDown);
+            } else if (dir.X < 0) {
                 PlayAnimation(DanteLeft);
                 lastDirection = Direction.Left;
             } else if (dir.X > 0) {
                 PlayAnimation(DanteRight);
                 lastDirection = Direction.Right;
-            } else if (dir.Y < 0) {
-                PlayAnimation(DanteUp);
-            } else if (dir.Y > 0) {
-                PlayAnimation(DanteDown);
-            } 
+            }
         } else 
         {
             ChangeSprite(General.Content.Load<Texture2D>("DanteIdle1"));
@@ -78,7 +80,7 @@ public class Player : Sprite
     }
 
     private void PlayAnimation(Texture2D[] Animation) {
-        
+        counter++;
         if (counter > countercounter) {
             ChangeSprite(Animation[AnimationFrame]);
             countercounter += 6;
@@ -96,5 +98,10 @@ public class Player : Sprite
         counter = 0;
         countercounter = 0;
         AnimationFrame = 0;
+    }
+
+    public void SetLimit(Point mapSize, Point tileSize) {
+        minPos = new((-tileSize.X / 2) + spawn.X, (-tileSize.Y / 2) + spawn.Y);
+        maxPos = new(mapSize.X - (tileSize.X / 2) - spawn.X, mapSize.Y - (tileSize.X / 2) - spawn.Y);
     }
 }

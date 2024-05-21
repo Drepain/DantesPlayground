@@ -8,7 +8,6 @@ public class Game1 : Game
 {
     private readonly GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
-    private SpriteFont font;
     private  GameManager ManageGame;
     private Player player;
 

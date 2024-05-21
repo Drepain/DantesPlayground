@@ -83,7 +83,7 @@ public class Player : Sprite
         counter++;
         if (counter > countercounter) {
             ChangeSprite(Animation[AnimationFrame]);
-            countercounter += 6;
+            countercounter += 5;
             if (AnimationFrame < 9) {
                 AnimationFrame++;
             } else {
@@ -102,6 +102,6 @@ public class Player : Sprite
 
     public void SetLimit(Point mapSize, Point tileSize) {
         minPos = new((-tileSize.X / 2) + spawn.X, (-tileSize.Y / 2) + spawn.Y);
-        maxPos = new(mapSize.X - (tileSize.X / 2) - spawn.X, mapSize.Y - (tileSize.X / 2) - spawn.Y);
+        maxPos = new(mapSize.X - (tileSize.X / 2) - spawn.X, (mapSize.Y - (tileSize.X / 2) - spawn.Y) - tileSize.Y * 2);
     }
 }

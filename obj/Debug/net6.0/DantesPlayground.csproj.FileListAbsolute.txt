@@ -76,3 +76,4 @@
 /home/joca/Documents/MonoGame/DantesPlayground/bin/Debug/net6.0/Content/WallEdge.xnb
 /home/joca/Documents/MonoGame/DantesPlayground/bin/Debug/net6.0/Content/WallEdgePillar.xnb
 /home/joca/Documents/MonoGame/DantesPlayground/bin/Debug/net6.0/Content/WallPillar.xnb
+/home/joca/Documents/MonoGame/DantesPlayground/bin/Debug/net6.0/Content/FloorEdge.xnb

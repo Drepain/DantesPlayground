@@ -52,6 +52,7 @@
     <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/File.spritefont</File>
     <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/Floor0.png</File>
     <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/Floor1.png</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/FloorEdge.png</File>
     <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/Wall1.png</File>
     <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/WallEdge.png</File>
     <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/WallEdgePillar.png</File>
@@ -104,6 +105,7 @@
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File>HackFont.spritefont</File>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

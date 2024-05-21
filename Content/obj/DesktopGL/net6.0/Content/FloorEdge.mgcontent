@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteLeft1.png</SourceFile>
-  <SourceTime>2024-05-18T16:27:49.4916155+01:00</SourceTime>
-  <DestFile>/home/joca/Documents/MonoGame/DantesPlayground/Content/bin/DesktopGL/DanteLeft1.xnb</DestFile>
-  <DestTime>2024-05-21T17:37:59.2596601+01:00</DestTime>
+  <SourceFile>/home/joca/Documents/MonoGame/DantesPlayground/Content/FloorEdge.png</SourceFile>
+  <SourceTime>2024-05-21T17:36:47.5463243+01:00</SourceTime>
+  <DestFile>/home/joca/Documents/MonoGame/DantesPlayground/Content/bin/DesktopGL/Content/FloorEdge.xnb</DestFile>
+  <DestTime>2024-05-21T17:39:14.6796627+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T12:44:56+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

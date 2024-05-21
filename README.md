@@ -31,3 +31,8 @@ Este projeto apresenta uma organização muito simples, estando os objetos do jo
 
 Os restantes items presentes no repositório foram criados pelo **MonoGame** ou pelo próprio **IDE**.
 
+## Classes
+### General.cs
+
+
+

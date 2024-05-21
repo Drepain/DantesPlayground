@@ -1,6 +1,4 @@
-﻿using System.IO;
-using System.Net;
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
@@ -8,7 +6,7 @@ namespace DantesPlayground;
 
 public class Game1 : Game
 {
-    private GraphicsDeviceManager _graphics;
+    private readonly GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
     private SpriteFont font;
     private  GameManager ManageGame;
@@ -46,7 +44,7 @@ public class Game1 : Game
 
         General.SpriteBatch = _spriteBatch;
 
-        font = Content.Load<SpriteFont>("HackFont");
+        //font = Content.Load<SpriteFont>("HackFont");
         // TODO: use this.Content to load your game content here
     }
 
@@ -66,12 +64,12 @@ public class Game1 : Game
     {
         GraphicsDevice.Clear(Color.CornflowerBlue);
 
-        _spriteBatch.Begin();
+        //_spriteBatch.Begin();
 
-        _spriteBatch.DrawString(font, "BALLS", new Vector2(0,0), Color.Red);
+        //_spriteBatch.DrawString(font, "BALLS", new Vector2(0,0), Color.Red);
         ManageGame.Draw();
 
-        _spriteBatch.End();
+        //_spriteBatch.End();
 
         base.Draw(gameTime);
     }

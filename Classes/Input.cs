@@ -1,7 +1,5 @@
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
-using System.Diagnostics;
 
 namespace DantesPlayground;
 
@@ -9,10 +7,11 @@ public static class InputManager
 {
     private static Vector2 _direction;
     public static Vector2 Direction => _direction;
+
     public static Vector2 MousePosition => Mouse.GetState().Position.ToVector2();
     public static bool MouseClicked {get; private set;}
     
-    public static void Update(Player plr) {
+    public static void Update() {
         PlayerIndex player = PlayerIndex.One;
         var keyboardState = Keyboard.GetState();
         var GamePadState = GamePad.GetState(player);

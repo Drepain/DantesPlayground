@@ -1,4 +1,3 @@
-using System.IO;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
 
@@ -27,4 +26,5 @@ public class Sprite
     public void ChangeSprite(Texture2D newTexture) {
         texture = newTexture;
     }
+
 }

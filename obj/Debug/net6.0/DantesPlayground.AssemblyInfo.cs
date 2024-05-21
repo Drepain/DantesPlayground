@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DantesPlayground")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e2ac3d598121e1d6adf315e3d22428195924b19")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc3ae9d70038d4a355671d62ff4cf78b79a37952")]
 [assembly: System.Reflection.AssemblyProductAttribute("DantesPlayground")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DantesPlayground")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

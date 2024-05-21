@@ -1,26 +1,40 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
 using System.Diagnostics;
-using System.Security.AccessControl;
+using System.Runtime.Intrinsics.X86;
 
 namespace DantesPlayground;
 
 public class Player : Sprite 
 {
-    enum Direction {
+    int countercounter = 6;
+    int AnimationFrame = 0;
+    public enum Direction {
         Left, Right
     }
 
-    Texture2D[] DanteLeftSprites;
+    Texture2D[] DanteLeft, DanteRight, DanteUp, DanteDown;
 
     private Direction lastDirection;
+
+    private int counter;
 
     public Player(Texture2D _Texture, Vector2 Position) : base(_Texture, Position) {}
 
     public void Initialize() {
-        DanteLeftSprites = new Texture2D[11];
-        for (int i = 0; i > 10; i++) {
-            DanteLeftSprites[i+1] = General.Content.Load<Texture2D>("DanteLeft" + (i + 1));
+        lastDirection = Direction.Right;
+        counter = 0;
+
+        DanteLeft = new Texture2D[10];
+        DanteRight = new Texture2D[10];
+        DanteUp = new Texture2D[10];
+        DanteDown = new Texture2D[10];
+
+        for (int i = 0; i < 10; i++) {
+            DanteLeft[i] = General.Content.Load<Texture2D>("DanteLeft" + (i + 1));
+            DanteRight[i] = General.Content.Load<Texture2D>("DanteRight" + (i + 1));
+            DanteUp[i] = General.Content.Load<Texture2D>("DanteUp" + (i + 1));
+            DanteDown[i] = General.Content.Load<Texture2D>("DanteDown" + (i + 1));
         }
     }
 
@@ -31,28 +45,56 @@ public class Player : Sprite
 
             position += dir * speed * General.TotalSeconds;
 
-            //Debug.Print("X:" + dir.X.ToString() + " Y:" + dir.Y.ToString());
+            //Position can be debugged with:
+            //Debug.Print("X:" + position.X.ToString() + " Y:" + position.Y.ToString());
 
-            lastDirection = Direction.Right;
+            counter++;
 
             if (dir.X < 0) {
-                ChangeSprite(General.Content.Load<Texture2D>("DanteLeft1"));
-                Debug.Print("Dante" + (1+1));
+                PlayAnimation(DanteLeft);
                 lastDirection = Direction.Left;
             } else if (dir.X > 0) {
-                ChangeSprite(General.Content.Load<Texture2D>("DanteRight1"));
+                PlayAnimation(DanteRight);
                 lastDirection = Direction.Right;
             } else if (dir.Y < 0) {
-                ChangeSprite(General.Content.Load<Texture2D>("DanteUp1"));
+                PlayAnimation(DanteUp);
             } else if (dir.Y > 0) {
-                ChangeSprite(General.Content.Load<Texture2D>("DanteDown1"));
+                PlayAnimation(DanteDown);
             } 
-        } else {
-            if (lastDirection == Direction.Right) {
-                ChangeSprite(General.Content.Load<Texture2D>("DanteIdle1"));
+        } else 
+        {
+            ChangeSprite(General.Content.Load<Texture2D>("DanteIdle1"));
+            ResetAnimationParams();
+        }
+    }
+
+    public Direction GetDirection() {
+        return lastDirection switch
+        {
+            Direction.Left => Direction.Left,
+            Direction.Right => Direction.Right,
+            _ => Direction.Left,
+        };
+    }
+
+    private void PlayAnimation(Texture2D[] Animation) {
+        
+        if (counter > countercounter) {
+            ChangeSprite(Animation[AnimationFrame]);
+            countercounter += 6;
+            if (AnimationFrame < 9) {
+                AnimationFrame++;
             } else {
-                ChangeSprite(General.Content.Load<Texture2D>("DanteIdle1"));
+                counter = 0; 
+                countercounter = 6; 
+                AnimationFrame = 0;
             }
         }
+    }
+
+    void ResetAnimationParams() {
+        counter = 0;
+        countercounter = 0;
+        AnimationFrame = 0;
     }
 }

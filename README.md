@@ -50,6 +50,9 @@ Classe responsável pelo desenho das texturas dos objetos na tela.
 ### Player.cs e Player2.cs
 Classes herdeiras de **Sprite.cs** responsáveis por colocar o Player no mapa, gere também as animações deste, bem como o próprio ataque acompanhado do som.
 
+>[!Note]
+> Estas classes responsáveis por ambos os players partilharam bastantes semelhanças, pelo que uma poderia ser herdeira da outra ou então encontrar-se as propriedades no interior da mesma classe.
+
 # Considerações Finais
 Apesar de o projeto encontra-se numa fase bastante primitiva, faltando várias implementações, como: Hitboxes, Menus e UI; trata-se de um projeto bastante interessante que poderá ser continuado o desenvolvimento num futuro muito próximo.
 

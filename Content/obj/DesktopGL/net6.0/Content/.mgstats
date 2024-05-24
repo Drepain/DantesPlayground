@@ -1,4 +1,5 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"/home/joca/Documents/MonoGame/DantesPlayground/Content/ComicSans.spritefont","/home/joca/Documents/MonoGame/DantesPlayground/Content/bin/DesktopGL/Content/ComicSans.xnb","FontDescriptionProcessor","SpriteFontContent",2016,21535,0.1578645
 "/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteAttack1.png","/home/joca/Documents/MonoGame/DantesPlayground/Content/bin/DesktopGL/Content/DanteAttack1.xnb","TextureProcessor","Texture2DContent",984,102485,0.092574
 "/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteAttack2.png","/home/joca/Documents/MonoGame/DantesPlayground/Content/bin/DesktopGL/Content/DanteAttack2.xnb","TextureProcessor","Texture2DContent",931,102485,0.0040221
 "/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteAttack3.png","/home/joca/Documents/MonoGame/DantesPlayground/Content/bin/DesktopGL/Content/DanteAttack3.xnb","TextureProcessor","Texture2DContent",946,102485,0.0050249

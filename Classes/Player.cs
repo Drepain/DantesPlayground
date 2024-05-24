@@ -83,7 +83,7 @@ public class Player : Sprite
                 ResetAnimationParams();
             }
         } else {
-            PlayAttackAnim(DanteAttack);
+            PlayAnimation(DanteAttack);
             IsAttacking = false;
         }
         if (InputManager.MouseClicked && InputManager.Direction == Vector2.Zero && AttackCooldown <= 0) IsAttacking = true;
@@ -110,24 +110,10 @@ public class Player : Sprite
                 counter = 0; 
                 countercounter = 6; 
                 AnimationFrame = 0;
-            }
-        }
-    }
-
-    private void PlayAttackAnim(Texture2D[] Animation) {
-        counter++;
-        int frameAmount = Animation.Length -1;
-        if (counter > countercounter) {
-            ChangeSprite(Animation[AnimationFrame]);
-            countercounter += 5;
-            if (AnimationFrame < frameAmount) {
-                AnimationFrame++;
-            } else {
-                counter = 0; 
-                countercounter = 6; 
-                AnimationFrame = 0;
-                AttackCooldown = 120;
-                MediaPlayer.Play(ThunderSound);
+                if (Animation == DanteAttack) {
+                    AttackCooldown = 120;
+                    MediaPlayer.Play(ThunderSound);
+                }
             }
         }
     }

@@ -4,6 +4,7 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/ComicSans.spritefont</File>
     <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteAttack1.png</File>
     <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteAttack2.png</File>
     <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteAttack3.png</File>
@@ -65,6 +66,7 @@
     <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/WallPillar.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

@@ -82,6 +82,5 @@
 /home/joca/Documents/MonoGame/DantesPlayground/bin/Debug/net6.0/Content/DanteAttack3.xnb
 /home/joca/Documents/MonoGame/DantesPlayground/bin/Debug/net6.0/Content/DanteAttack4.xnb
 /home/joca/Documents/MonoGame/DantesPlayground/bin/Debug/net6.0/Content/DanteAttack5.xnb
-/home/joca/Documents/MonoGame/DantesPlayground/bin/Debug/net6.0/Content/Thunder.ogg
 /home/joca/Documents/MonoGame/DantesPlayground/bin/Debug/net6.0/Content/Thunder.xnb
 /home/joca/Documents/MonoGame/DantesPlayground/bin/Debug/net6.0/Content/ComicSans.xnb

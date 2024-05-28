@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>/home/joca/Documents/MonoGame/DantesPlayground/Content/Thunder.mp3</SourceFile>
-  <SourceTime>2024-05-21T18:35:23.4897768+01:00</SourceTime>
+  <SourceFile>/home/joca/Documents/MonoGame/DantesPlayground/Content/Thunder.wav</SourceFile>
+  <SourceTime>2024-05-24T22:19:13.2929861+01:00</SourceTime>
   <DestFile>/home/joca/Documents/MonoGame/DantesPlayground/Content/bin/DesktopGL/Thunder.xnb</DestFile>
-  <DestTime>2024-05-24T08:25:29.9966437+01:00</DestTime>
-  <Importer>Mp3Importer</Importer>
+  <DestTime>2024-05-24T22:24:25.5496437+01:00</DestTime>
+  <Importer>WavImporter</Importer>
   <ImporterTime>2022-07-26T12:44:56+01:00</ImporterTime>
-  <Processor>SongProcessor</Processor>
+  <Processor>SoundEffectProcessor</Processor>
   <ProcessorTime>2022-07-26T12:44:56+01:00</ProcessorTime>
   <Parameters>
     <Key>Quality</Key>
@@ -14,7 +14,5 @@
   </Parameters>
   <Dependencies />
   <BuildAsset />
-  <BuildOutput>
-    <string>/home/joca/Documents/MonoGame/DantesPlayground/Content/bin/DesktopGL/Thunder.ogg</string>
-  </BuildOutput>
+  <BuildOutput />
 </PipelineBuildEvent>

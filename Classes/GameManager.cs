@@ -32,6 +32,7 @@ public class GameManager {
         InputManager.Update();
         player1.Update();
         player2.Update();
+        HitboxManager.Update(player1);
         CalculateMatrix();
     }
 

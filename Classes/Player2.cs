@@ -1,6 +1,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Media;
+using Microsoft.Xna.Framework.Audio;
 
 namespace DantesPlayground;
 
@@ -24,7 +25,7 @@ public class Player2 : Sprite
     private Direction lastDirection;
 
     private int counter;
-    private Song ThunderSound;
+    private SoundEffect ThunderSound;
 
     public Player2(Texture2D _Texture, Vector2 Position) : base(_Texture, Position) {}
 
@@ -39,7 +40,7 @@ public class Player2 : Sprite
         DanteDown = new Texture2D[10];
         DanteAttack = new Texture2D[5];
 
-        ThunderSound = General.Content.Load<Song>("Thunder");
+        ThunderSound = General.Content.Load<SoundEffect>("Thunder");
 
         for (int i = 0; i < 10; i++) {
             DanteLeft[i] = General.Content.Load<Texture2D>("DanteLeft" + (i + 1));
@@ -127,7 +128,7 @@ public class Player2 : Sprite
                 countercounter = 6; 
                 AnimationFrame = 0;
                 AttackCooldown = 120;
-                MediaPlayer.Play(ThunderSound);
+                ThunderSound.CreateInstance().Play();
             }
         }
     }

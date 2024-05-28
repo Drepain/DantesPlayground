@@ -10,6 +10,8 @@ public class Player : Sprite
     private Vector2 minPos, maxPos;
 
     private Rectangle hitbox;
+    public int index;
+    private bool AttackButtonPressed;
     public int HP;
     int AttackCooldown = 0;
     public int AttackDuration = 30;
@@ -36,7 +38,9 @@ public class Player : Sprite
 
     private AnimationManager Animations;
 
-    public Player(Texture2D _Texture, Vector2 Position) : base(_Texture, Position) {}
+    public Player(Texture2D _Texture, Vector2 Position, int PlayerIndex = 1) : base(_Texture, Position) {
+        index = PlayerIndex;
+    }
     
 
     public void Initialize() {
@@ -82,12 +86,24 @@ public class Player : Sprite
         Animations.AddAnimation(new Vector2(1,-1), WalkUp);
         Animations.AddAnimation(new Vector2(-1,1), WalkDown);
 
+        
+
         //AttackAnimations.AddAnimation(true, AttackAnim);
     }
 
     public void Update()
     {
-        DirectionVector = InputManager.Direction;
+        switch (index)
+        {
+            case 1:
+            DirectionVector = InputManager.Direction;
+            AttackButtonPressed = InputManager.MouseClicked;
+            break;
+            case 2:
+            DirectionVector = InputManager.Direction2;
+            AttackButtonPressed = InputManager.ButtonClicked;
+            break;
+        }
 
         if (playerstate == State.Attacking) {
             if (lastDirection == Direction.Right) {
@@ -123,7 +139,7 @@ public class Player : Sprite
             //Debug.Print("X:" + position.X.ToString() + " Y:" + position.Y.ToString());
         }
         
-        if (InputManager.MouseClicked && AttackCooldown <= 0) {
+        if (AttackButtonPressed && AttackCooldown <= 0) {
             AttackAnim.Start();
             playerstate = State.Attacking;
             AttackCooldown = 120;
@@ -151,7 +167,7 @@ public class Player : Sprite
         {
             Position = position,
             Size = new Vector2(this.texture.Width, this.texture.Height),
-            LastingTime = 0.5f,
+            LastingTime = General.TotalSeconds,
             Owner = this
         };
         HitboxManager.AddHitbox(hd);
@@ -159,7 +175,7 @@ public class Player : Sprite
 
     public void TakeDamage(Hitbox hb) {
         if (playerstate != State.Invulnerable) {
-            if (hb.box.Intersects(hitbox) && hb.owner == this) {
+            if (hb.box.Intersects(hitbox) && hb.owner != this) {
                 Debug.Print("ouch");
             }
         }

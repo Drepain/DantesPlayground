@@ -10,10 +10,12 @@ public static class HitboxManager {
         Hitboxes.Add(new(hitboxData));
     }
 
-    public static void Update(Player plr) {
+    public static void Update(List<Player> players) {
         foreach (var h in Hitboxes) {
             h.Update();
-            plr.TakeDamage(h);
+            foreach (var p in players) {
+                p.TakeDamage(h);
+            }
         }
         Hitboxes.RemoveAll((h) => h.lastingTime <= 0);
     }

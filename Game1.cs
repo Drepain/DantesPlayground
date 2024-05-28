@@ -9,8 +9,7 @@ public class Game1 : Game
     private readonly GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
     private  GameManager ManageGame;
-    private Player player1;
-    private Player2 player2;
+    private Player player1, player2;
     
 
     public Game1()
@@ -31,7 +30,7 @@ public class Game1 : Game
 
         General.Content = Content;
         player1 = new(General.Content.Load<Texture2D>("DanteIdle1"), new(500, 500));
-        player2 = new(General.Content.Load<Texture2D>("DanteIdle1"), new(1000, 1000));
+        player2 = new(General.Content.Load<Texture2D>("DanteIdle1"), new(1000, 1000), 2);
 
         player1.Initialize();
         player2.Initialize();

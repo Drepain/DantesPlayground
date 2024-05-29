@@ -5,6 +5,7 @@
   <Config />
   <SourceFiles>
     <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/ComicSans.spritefont</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/ControlScreen.png</File>
     <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteAttack1.png</File>
     <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteAttack2.png</File>
     <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteAttack3.png</File>
@@ -60,6 +61,7 @@
     <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/Floor1.png</File>
     <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/FloorEdge.png</File>
     <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/Thunder.wav</File>
+    <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/TitleScreen.png</File>
     <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/Wall1.png</File>
     <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/WallEdge.png</File>
     <File>/home/joca/Documents/MonoGame/DantesPlayground/Content/WallEdgePillar.png</File>
@@ -117,7 +119,9 @@
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File>HackFont.spritefont</File>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

@@ -119,7 +119,7 @@ public class Player : Sprite
 
         if (AttackDuration <= 0 && playerstate == State.Attacking) {
             Fire();
-            Debug.Print("Player:" + position.ToString());
+            //Debug.Print("Player:" + position.ToString());
             playerstate = State.Normal;
             ThunderSound.CreateInstance().Play();
             AttackAnim.Reset();

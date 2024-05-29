@@ -20,7 +20,7 @@ public class Hitbox {
 
     public void Initialize() {
         box = new Rectangle((int)position.X, (int)position.Y, (int)size.X, (int)size.Y);
-        Debug.Print("Hitbox:" + box.ToString());
+        //Debug.Print("Hitbox:" + box.ToString());
     }
 
     public void Update() {

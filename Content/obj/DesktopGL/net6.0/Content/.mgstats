@@ -1,5 +1,6 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
 "/home/joca/Documents/MonoGame/DantesPlayground/Content/ComicSans.spritefont","/home/joca/Documents/MonoGame/DantesPlayground/Content/bin/DesktopGL/Content/ComicSans.xnb","FontDescriptionProcessor","SpriteFontContent",2016,21535,0.1578645
+"/home/joca/Documents/MonoGame/DantesPlayground/Content/ControlScreen.png","/home/joca/Documents/MonoGame/DantesPlayground/Content/bin/DesktopGL/Content/ControlScreen.xnb","TextureProcessor","Texture2DContent",32480,3145813,0.172169
 "/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteAttack1.png","/home/joca/Documents/MonoGame/DantesPlayground/Content/bin/DesktopGL/Content/DanteAttack1.xnb","TextureProcessor","Texture2DContent",984,102485,0.092574
 "/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteAttack2.png","/home/joca/Documents/MonoGame/DantesPlayground/Content/bin/DesktopGL/Content/DanteAttack2.xnb","TextureProcessor","Texture2DContent",931,102485,0.0040221
 "/home/joca/Documents/MonoGame/DantesPlayground/Content/DanteAttack3.png","/home/joca/Documents/MonoGame/DantesPlayground/Content/bin/DesktopGL/Content/DanteAttack3.xnb","TextureProcessor","Texture2DContent",946,102485,0.0050249
@@ -55,6 +56,7 @@ Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Siz
 "/home/joca/Documents/MonoGame/DantesPlayground/Content/Floor1.png","/home/joca/Documents/MonoGame/DantesPlayground/Content/bin/DesktopGL/Content/Floor1.xnb","TextureProcessor","Texture2DContent",289,25685,0.0040872
 "/home/joca/Documents/MonoGame/DantesPlayground/Content/FloorEdge.png","/home/joca/Documents/MonoGame/DantesPlayground/Content/bin/DesktopGL/Content/FloorEdge.xnb","TextureProcessor","Texture2DContent",273,25685,0.0907716
 "/home/joca/Documents/MonoGame/DantesPlayground/Content/Thunder.wav","/home/joca/Documents/MonoGame/DantesPlayground/Content/bin/DesktopGL/Content/Thunder.xnb","SoundEffectProcessor","SoundEffectContent",524042,524069,0.290897
+"/home/joca/Documents/MonoGame/DantesPlayground/Content/TitleScreen.png","/home/joca/Documents/MonoGame/DantesPlayground/Content/bin/DesktopGL/Content/TitleScreen.xnb","TextureProcessor","Texture2DContent",31303,3145813,0.0795943
 "/home/joca/Documents/MonoGame/DantesPlayground/Content/Wall1.png","/home/joca/Documents/MonoGame/DantesPlayground/Content/bin/DesktopGL/Content/Wall1.xnb","TextureProcessor","Texture2DContent",408,25685,0.0015043
 "/home/joca/Documents/MonoGame/DantesPlayground/Content/WallEdge.png","/home/joca/Documents/MonoGame/DantesPlayground/Content/bin/DesktopGL/Content/WallEdge.xnb","TextureProcessor","Texture2DContent",379,25685,0.0013156
 "/home/joca/Documents/MonoGame/DantesPlayground/Content/WallEdgePillar.png","/home/joca/Documents/MonoGame/DantesPlayground/Content/bin/DesktopGL/Content/WallEdgePillar.xnb","TextureProcessor","Texture2DContent",361,25685,0.0012139

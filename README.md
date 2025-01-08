@@ -1,30 +1,35 @@
-# RhythmBalls
+# DantesPlayground
 
-Projeto realizado no âmbito da UC DJPM do curso Licenssiatura em Engenharia de Desenvolvimento de Jogos Digitais
+Projeto realizado no âmbito da UC TDV
 
- 
+
 ## Membros 
 
 Francisco Gomes - 27941
 Jorge Costa - 27923
-Maria Costa - 22530
 
 
 ## Descrição do jogo
 
-**RhythmBalls* é um jogo desenvolvido utilizando Kotlin como linguagme
+**DantesPlayground** é um jogo usando como base **C#** e [**MonoGame**](https://monogame.net).
 
-Este jogo usou como inspiração titulos como "**Osu!**" e "**Guitar Hero**"; A jogabilidade deste jogo gira em torno de ritmo, onde consoante a música selecionada e o *timestamp* é apresentado um circulo para o *player* interagir e ganhar pontos.
+Este jogo usou como inspiração titulos como "**Mortal Kombat**" e "**Street Fighter**"; Poderá ser jogado por duas pessoas, havendo a opção de usar __<ins>Teclado</ins>__ ou __<ins>Comando</ins>__ como input, em que o objetivo é derrotar o adversário através de ataques corpo-a-corpo até o HP chegar no valor **0**. Ambos os players estarão confinados a uma arena de pedra, sem possibilidade de abandonar a mesma.
+
 
 ## Plataformas
 
-RhythmBalls é apenas jogável em Android.
+DantesPlayground é um jogo em que apenas foi testado a compatibilidade com Windows e Linux, acredita-se que também funcione em MacOS. 
+
+>  *Não existe qualquer tipo de compatibilidade com Android e IOS*.
 
 
 # Estrutura e Organização do Código
 
-Este projeto atualmente não apresenta qualquer tipo de organização dos ficheiros `.kt` por pastas, encontrando-se todos os ficheiros na pasta pricipal da apilicação. Este projeto segue também a estrutura *Model View ViewModel ( MVVM )* 
+Este projeto apresenta uma organização muito simples, estando os objetos do jogo divididos por 2 pastas:
+ - "**Assets**" - Dentro desta pasta encontra-se todos os `.png` utilizados para a criação de *Personagens*/*Mapa*/*etc*
+ - "**Classes**" - Dentro desta pasta, como o próprio nome indica, encontram-se todas as classes do jogo, desde Criação do mapa, Movimentação do Player, Input, ...
 
+Os restantes items presentes no repositório foram criados pelo **MonoGame** ou pelo próprio **IDE**.
 
 ## Classes
 ### General.cs
@@ -50,7 +55,6 @@ Classes herdeiras de **Sprite.cs** responsáveis por colocar o Player no mapa, g
 
 # Considerações Finais
 Apesar de o projeto encontra-se numa fase bastante primitiva, faltando várias implementações, como: Hitboxes, Menus e UI; trata-se de um projeto bastante interessante que poderá ser continuado o desenvolvimento num futuro muito próximo.
-
 
 
 
